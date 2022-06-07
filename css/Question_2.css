@@ -1,5 +1,13 @@
 #Screen3{
-  height: 1000;
-  width: 50%;
+  height: 100;
+  width:60%;
   margin: 0 auto;
+}
+.bot{
+  background-color:rgb(245, 245, 255); 
+  border: 1px solid rgb(234, 234, 234); 
+  color: rgb(0, 0, 0); 
+  padding: 10px 24px;
+  cursor: pointer; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
