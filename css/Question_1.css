@@ -20,7 +20,7 @@
   width:10%;
 }
 
-@keyframes cat{
+/* @keyframes cat{
    0% {left:0px;top:0px;}
    100% {left:10px;top:0px;}
   }
@@ -32,7 +32,7 @@
     animation-iteration-count: 1;
     animation-direction: 0;
     animation-fill-mode: both;
-  }
+  } */
 
 
 
