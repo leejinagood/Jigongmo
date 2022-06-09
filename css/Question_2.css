@@ -18,8 +18,8 @@
 }
 
 @keyframes cat{
-   0% {left:5px;top:0px;}
-   100% {left:10px;top:0px;}
+   0% {left:10px;top:0px;}
+   100% {left:20px;top:0px;}
   }
   #cat{
     position: relative;
@@ -27,6 +27,8 @@
     animation-duration: 1s;
     animation-timing-function: lease-in;
     animation-iteration-count: 1;
+    animation-direction: 0;
+    animation-fill-mode: both;
   }
 .progress {
   width: 100%;

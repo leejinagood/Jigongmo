@@ -22,7 +22,7 @@
 
 @keyframes cat{
    0% {left:0px;top:0px;}
-   100% {left:5px;top:0px;}
+   100% {left:10px;top:0px;}
   }
   #cat{
     position: relative;
@@ -31,6 +31,7 @@
     animation-timing-function: lease-in;
     animation-iteration-count: 1;
     animation-direction: 0;
+    animation-fill-mode: both;
   }
 
 
