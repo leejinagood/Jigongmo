@@ -1,4 +1,4 @@
-#Screen5{
+#Screen14{
     height: 100;
     width:60%;
     margin: 0 auto;
@@ -18,8 +18,8 @@
   }
   
   @keyframes cat{
-     0% {left:80px;top:0px;}
-     100% {left:130px;top:0px;}
+     0% {left:550px;top:0px;}
+     100% {left:600px;top:0px;}
     }
     #cat{
       position: relative;

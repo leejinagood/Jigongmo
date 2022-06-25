@@ -19,7 +19,7 @@
   
   @keyframes cat{
      0% {left:20px;top:0px;}
-     100% {left:50px;top:0px;}
+     100% {left:80px;top:0px;}
     }
     #cat{
       position: relative;
