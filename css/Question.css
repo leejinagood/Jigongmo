@@ -16,26 +16,24 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
   
+
   #cat{
     height: 50;
     width:10%;
   }
-  
-  @keyframes cat{
-    0% {left:10px;top:0px;}
-    100% {left:20px;top:0px;}
-   }
-   #cat{
-     position: relative;
-     animation-name: cat;
-     animation-duration: 1s;
-     animation-timing-function: lease-in;
-     animation-iteration-count: 1;
-     animation-direction: 0;
-     animation-fill-mode: both;
-   }
-  
-  
+
+    #cat{
+      position: relative;
+      animation-name: cat;
+      animation-duration: 1s;
+      animation-timing-function: lease-in;
+      animation-iteration-count: 1;
+      animation-direction: 0;
+      animation-fill-mode: both;
+    }
+
+
+
   .progress {
     width: 100%;
     height: 20px;
