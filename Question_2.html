@@ -13,44 +13,8 @@
     <img id=cat src="img/cat.jpg">
 
     <script>
-        var imgObj = null;
+        var $cat;
 
-var animate ;
-
-function init(){
-
-   imgObj = document.getElementById('cat');
-
-   imgObj.style.position= 'relative';
-
-   imgObj.style.left = '0px';
-
-}
-
-function moveRight(){
-
-   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
-
-   animate = setTimeout(moveRight,20); 
-
-}
-
-function stop(){
-
-   clearTimeout(animate);
-
-   imgObj.style.left = '0px';
-
-}
-
-window.onload =init;
-
-
-        // var animate;
-        // function cat() {
-            
-        // }
-        
         </script>
     <div>
          <progress class="progress" value="20" max="160"></progress>
