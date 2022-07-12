@@ -12,9 +12,31 @@
     <h3 style="text-align:center;">총 16개 중 이상형을 찾으세요!</h3> <br><br>
     <img id=cat src="img/cat.jpg">
 
-    <script>
-        var $cat;
+    <script type="text/javascript">
+        
+    var cat = document.getElementById("cat");
+    cat.style.position= "relative";
+    cat.style.left='20px';
+    // cat.style.animationDuration='3s';
+    cat.style.animationTimingFunction="ease-out";
+    cat.style.animationIterationCount=1;
+    // cat.style.animationDirection=0;
+    // cat.style.animationFillMode="both";
+    // window.onload =init;
 
+//       @keyframes cat{
+//    0% {left:10px;top:0px;}
+//    100% {left:20px;top:0px;}
+//   }
+//   #cat1{
+//     position: relative;
+//     animation-name: cat;
+//     animation-duration: 1s;
+//     animation-timing-function: lease-in;
+//     animation-iteration-count: 1;
+//     animation-direction: 0;
+//     animation-fill-mode: both;
+//   } 
         </script>
     <div>
          <progress class="progress" value="20" max="160"></progress>
