@@ -13,13 +13,19 @@
     <img id=cat src="img/cat.jpg">
 
     <script type="text/javascript">
-        
-    var cat = document.getElementById("cat");
-    cat.style.position= "relative";
-    cat.style.left='20px';
+    // var cat = document.getElementById("cat"); 
+    $(function(){
+            $("#cat").animate({
+                left: '100px'
+            });
+        });
+
+    // cat.style.position= "relative";
+    // cat.style.left='20px';
+    // cat.style.animationDuration = "5s";
     // cat.style.animationDuration='3s';
-    cat.style.animationTimingFunction="ease-out";
-    cat.style.animationIterationCount=1;
+    // cat.style.animationTimingFunction="ease-in-out";
+    // cat.style.animationIterationCount=1;
     // cat.style.animationDirection=0;
     // cat.style.animationFillMode="both";
     // window.onload =init;
