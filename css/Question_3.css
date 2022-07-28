@@ -18,7 +18,10 @@
     height: 50;
     width: 10%;
 }
-
+#question{
+    height: 50;
+    width:50%;
+  }
 @keyframes cat {
     0% {
         left: 6.25%;
