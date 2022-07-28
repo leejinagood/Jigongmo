@@ -9,10 +9,10 @@ img {
   height: 100%; 
 }
 .bot{
+  background-color:rgb(245, 245, 255); 
   font-size:medium;
   width : 50%;
   height: 50%; 
-   background-image: url('img/AB.png');
   border: 1px solid rgb(234, 234, 234); 
   color: rgb(0, 0, 0); 
   padding: 10px 24px;
