@@ -16,9 +16,14 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
   
-  #textimg{
+  /* #textimg{
     height: 50;
     width:80%;
+  } */
+
+  #question{
+    height: 50;
+    width:50%;
   }
 
   #cat{
