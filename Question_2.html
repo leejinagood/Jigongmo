@@ -13,13 +13,16 @@
     <br><br>
 
     <img id="cat" src="img/cat.jpg">
-    <style>
+    
+    <script type="text/javascript">
+        var cat = document.getElementById("cat");
+        cat.style.left='20px';
+        </script>
 
-         /* @keyframes cat{
-   0% {left:10px;top:0px;}
-   100% {left:1000px;top:0px;}
-  } */
-  
+    <style>  
+    #cat{
+        animation-name: cat;
+    }
   @keyframes cat {
     0% {
         left: 0%;
@@ -30,21 +33,12 @@
         top: 0px;
     }
 }
-
     </style>
-    <script type="text/javascript">
 
-        
-    
-    var cat = document.getElementById("cat");
-    cat.style.left='20px';
-
-    
-
-     
+ 
 
 
-//   #cat1{
+<!-- //   #cat1{
 //     position: relative;
 //     animation-name: cat;
 //     animation-duration: 1s;
@@ -52,8 +46,7 @@
 //     animation-iteration-count: 1;
 //     animation-direction: 0;
 //     animation-fill-mode: both;
-//   } 
-        </script>
+//   }  -->
         
 
     <div>

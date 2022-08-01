@@ -12,18 +12,26 @@
     <div style="text-align : center;"><img id=question src="img/16Question.png"></div>
     <br><br>
     <img id=cat src="img/cat.jpg">
-    <script type="text/javascript">
-        
-        var cat = document.getElementById("cat");
-        cat.style.position= "relative";
-        cat.style.left='600px';
-        cat.style.animationDuration='1s';
-        cat.style.animationTimingFunction="lease-in";
-        cat.style.animationIterationCount=1;
-        cat.style.animationDirection=0;
-        cat.style.animationFillMode="both";
-        window.onload =init;
-        </script>
+    <style>
+        #cat{
+            animation-name: cat;
+        }
+        @keyframes cat {
+        0% {
+            left: 6.25%;
+            top: 0px;
+        }
+        100% {
+            left: 12.5%;
+            top: 0px;
+        }
+    }
+    </style>
+        <script type="text/javascript">
+            
+            var cat = document.getElementById("cat");
+            cat.style.left='600px';
+            </script>
     <div>
         <progress class="progress" value="130" max="160"></progress>
       </div>
