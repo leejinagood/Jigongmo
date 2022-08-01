@@ -11,28 +11,39 @@
     <br>
     <div style="text-align : center;"><img id=question src="img/16Question.png"></div>
     <br><br>
+
+    <img id="cat" src="img/cat.jpg">
+    <style>
+
+         /* @keyframes cat{
+   0% {left:10px;top:0px;}
+   100% {left:1000px;top:0px;}
+  } */
+  
+  @keyframes cat {
+    0% {
+        left: 0%;
+        top: 0px;
+    }
+    100% {
+        left: 6.25%;
+        top: 0px;
+    }
+}
+
+    </style>
     <script type="text/javascript">
-    // var cat = document.getElementById("cat"); 
-    $(function(){
-            $('#cat').animate({
-                left: 20
-            });
-        });
 
-    // cat.style.position= "relative";
-    // cat.style.left='20px';
-    // cat.style.animationDuration = "5s";
-    // cat.style.animationDuration='3s';
-    // cat.style.animationTimingFunction="ease-in-out";
-    // cat.style.animationIterationCount=1;
-    // cat.style.animationDirection=0;
-    // cat.style.animationFillMode="both";
-    // window.onload =init;
+        
+    
+    var cat = document.getElementById("cat");
+    cat.style.left='20px';
 
-//       @keyframes cat{
-//    0% {left:10px;top:0px;}
-//    100% {left:20px;top:0px;}
-//   }
+    
+
+     
+
+
 //   #cat1{
 //     position: relative;
 //     animation-name: cat;
@@ -43,7 +54,8 @@
 //     animation-fill-mode: both;
 //   } 
         </script>
-        <img id="cat" src="img/cat.jpg">
+        
+
     <div>
          <progress class="progress" value="20" max="160"></progress>
     </div>
