@@ -4,6 +4,11 @@
     margin: 0 auto;
 }
 
+img {
+    max-width: 3000px;
+    max-height: 400px;
+}
+
 #Screen2 h3 {
     text-align: center;
 }
