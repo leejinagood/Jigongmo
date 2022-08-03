@@ -19,3 +19,8 @@ img {
   cursor: pointer; 
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+#foot{
+  height: 100;
+  width:100%;
+  margin: 0 auto;
+}
