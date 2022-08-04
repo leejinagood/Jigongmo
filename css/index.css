@@ -1,23 +1,24 @@
 
 #Screen1st{
   height: 100;
-  width:25%;
-  margin: 0 auto;
+  width:300px;
+  margin:auto;
 }
 img {
   width : 100%;
   height: 100%; 
-}
+} 
 .bot{
   background-color:rgb(245, 245, 255); 
   font-size:medium;
-  width : 50%;
-  height: 50%; 
+  width : 200px;
+  height: 100px; 
   border: 1px solid rgb(234, 234, 234); 
   color: rgb(0, 0, 0); 
   padding: 10px 24px;
   cursor: pointer; 
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  
 }
 #foot{
   height: 100;
