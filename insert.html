@@ -6,17 +6,27 @@
     <title>사용자 입력</title>
  <link rel="stylesheet" href="/css/insert.css">
 </head>
-
+<script>
+    $(document).ready(function(){
+        $("#submit").click(function(){
+            if($("#Name").val().length==0){alert("이름을 입력하세요"); $("#Name").focus(); return false;}
+        });
+    });
+    var f =document.fom;
+    f.action="Question_1.html"
+    f.submit();
+</script>
 <body>
-   <form>
+   <form name="fom" onsubmit="checkNull()" action="Question_1.html">
     <div id="head">
         <img id="headimg" src="img/headimg2.png" >
     </div>
         <div id="in">
         <br><br><br>
-        <h3><b>이름 : <input type="text" name="search" required> </b></h3> <br> 
+        <h3><b>이름 : <input type="text" id="Name" required> </b></h3> <br> 
         <h3><b>mbti : <select name="MBTI">
-            <option value="ENFP" selected> ENFP
+            <option value="mbti" selected> 
+            <option value="ENFP"> ENFP
             <option value="ESFP"> ESFP
             <option value="ENTP"> ENTP
             <option value="ESTP"> ESTP
@@ -34,15 +44,14 @@
             <option value="ISTJ"> ISTJ
           </select>
         </b></h3> <br><br>
-        <div onclick="location.href='Question_1.html'">
-            <input type="submit">
+            <input type="submit" id="submit" value="전송하기">
             <br><br><br>
             <br><br><br><br><br><br>
             <br><br><br><br><br><br>
             <br><br><br>
-        </div>
      </div>
     </form>
+
     <div id="Screen2">
         <img id="headimg" src="img/footimg.png" >
      </div>

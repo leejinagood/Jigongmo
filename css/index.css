@@ -1,7 +1,7 @@
 
 #Screen1st{
   height: 100;
-  width:300px;
+  width:200px;
   margin:auto;
 }
 img {
@@ -9,7 +9,7 @@ img {
   height: 100%; 
 } 
 .bot{
-  background-color:rgb(245, 245, 255); 
+  background-color:rgb(195, 237, 252); 
   font-size:medium;
   width : 200px;
   height: 100px; 
