@@ -3,6 +3,13 @@
     width:60%;
     margin: 0 auto;
   }
+  #Screen3{
+    height: 100;
+    width:60%;
+    margin: 0 auto;
+    position : sticky;
+    bottom: 0;
+  }
   #Screen2 h3{
     text-align: center;
   }
