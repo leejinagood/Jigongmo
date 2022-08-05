@@ -9,16 +9,20 @@ img {
   height: 100%; 
 } 
 .bot{
-  background-color:rgb(195, 237, 252); 
-  font-size:medium;
-  width : 200px;
+   width : 200px;
   height: 100px; 
-  border: 1px solid rgb(234, 234, 234); 
-  color: rgb(0, 0, 0); 
-  padding: 10px 24px;
-  cursor: pointer; 
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: #6aafe6;
+  color: #ffffff;
 }
 #foot{
   height: 100;
